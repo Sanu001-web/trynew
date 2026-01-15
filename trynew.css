@@ -48,8 +48,9 @@
 
 
 .Twee-but{
-  color: rgb(255, 255, 255);
-  background-color: rgb(62, 70, 219);
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
   border: none;
   padding-left: 10px;
   padding-right: 10px;
@@ -64,7 +65,7 @@
   
 }
 .Twee-but:hover{
-  background-color: rgb(36, 45, 201);
+  background-color: rgb(60, 66, 187);
   box-shadow: 0px 4px 6px rgba(26, 1, 1, 0.2);
 }
 .Stretch-but{
@@ -344,4 +345,83 @@ color: rgb(250, 250, 250);
   display: inline-block;
   vertical-align: top;
   margin-left: 15px ;
+}
+.Pro_F{
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 450px;
+  border-radius: 6px;
+}
+.men-img{
+   width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.thought{
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.Profi-card{
+  margin-top: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 160px;
+}
+.Profi-img{
+  width: 160px;
+  height: 170px;
+  object-fit: cover;
+}
+.P-Name{
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 8px;
+}
+
+.Frnd-Rela{
+  color: rgb(183, 138, 145);
+  margin-left: 12px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.Request-butt{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s,box-shadow 0.3s;
+
+}
+.new-prof-cardf{
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: #dacccc;
+}
+.Profi-card-3,.Profi-card-2,.Profi-card-1{
+  display: inline-block;
+  margin-top: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f1f1;
 }
