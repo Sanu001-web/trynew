@@ -1,0 +1,378 @@
+ p{
+  font-family: Roboto;
+}
+
+.Subs-but{
+  color: rgb(236, 233, 233);
+  background-color: rgb(234, 7, 7);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.Subs-but:hover{
+  opacity: 0.8;
+}
+.Subs-but:active{
+  background-color: #a83636;
+}
+.Join-but{
+  color: rgb(67, 67, 206);
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 1.5px;
+  border-color: rgb(72, 72, 205);
+  border-width: 1.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  transition: background-color 0.3s,color 0.3s;
+}
+.Join-but:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(67, 67, 206);
+}
+.join-but:active{
+  opacity: 0.8;
+} 
+
+
+.Twee-but{
+  color: rgb(255, 255, 255);
+  background-color: rgb(62, 70, 219);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s,box-shadow 0.3s;
+  
+}
+.Twee-but:hover{
+  background-color: rgb(36, 45, 201);
+  box-shadow: 0px 4px 6px rgba(26, 1, 1, 0.2);
+}
+.Stretch-but{
+  color: rgb(247, 247, 247);
+  background-color: rgb(2, 116, 1);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition:  padding-left 1s, padding-right 1s, padding-top 1s, padding-bottom 1s, background-color 1s;
+}
+.Stretch-but:hover{
+  background-color: rgb(1, 81, 1);
+  /* transform: scale(2.05); */
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.thumb-1,.thumb-2{
+  width: 350px;
+}
+
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  width: 350px;
+}
+.video-stats{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+}
+.video-author{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+} 
+.video-description{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+  width: 350px;
+}
+.apple-text
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #f24c05ce;
+  width: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+.shop-link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.shop-link:hover{
+  text-decoration: underline;
+}
+.Tag-product{
+  color: green;
+  text-align: center;
+}
+.Product-name{
+  text-align: center;
+}
+.Supercharged{
+  text-align: center;
+}
+.Product-Price{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+.Buy-Butt{
+  align-items: center;
+  color: white;
+  background-color: rgb(34, 2, 174);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Search{
+  font-size: 17px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: block;
+}  
+
+.Email-box,.terms{
+  margin-bottom: 5px;
+  color: rgb(80, 80, 80);
+  
+}
+.Email-Enter{ 
+  margin-top: 0px;
+  font-family: Roboto;
+  font-size: 10px;
+  padding-left: 1px;
+  width: 400px; 
+  height: 25px;
+  
+}
+.Agree-button{
+  color: rgb(250, 250, 250);
+  background-color: rgba(21, 7, 226, 0.633);
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  width: 500px;
+}
+.img1{
+
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.Tweet{
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 5px;
+  width: 400px; 
+  height: 25px;
+  display: inline-block;
+}
+
+.Twee-buttn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(62, 70, 219);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s,box-shadow 0.3s;
+   display: inline-block;
+}
+.Twee-buttn:hover{
+  background-color: rgb(36, 45, 201);
+  box-shadow: 0px 4px 6px rgba(26, 1, 1, 0.2);
+}
+.F-Name{
+  margin-top: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 1px;
+  width: 200px; 
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(206, 169, 175);
+  display: block;
+  margin-top: 10px;
+  display: inline-block;
+}
+.L-Name{
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 1px;
+  width: 200px; 
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(206, 169, 175);
+  margin-top: 5px;
+  
+}
+.E-Mail{
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 1px;
+  width: 410px; 
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(206, 169, 175);
+  margin-top: 5px;
+ display: block;
+}
+.survey{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-left: 1px;
+  width: 300px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.survey-y{
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(121, 134, 130);
+  font-family: Roboto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.survey-n{
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(121, 134, 130);
+  font-family: Roboto;
+  vertical-align: middle;
+  cursor: pointer; 
+}
+.FB-Sign{
+
+color: rgb(250, 250, 250);
+  background-color: rgba(21, 7, 226, 0.633);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: roboto;
+  width: 410px;
+  margin-top: 10px;
+}
+.P-Adrs{
+   margin-top: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 1px;
+  width: 300px; 
+  height: 30px;
+  border: none;
+  border-width: 2px;
+  border-color: rgb(206, 169, 175);
+  background-color: #f5f0f0;
+  display: block;
+}
+.D-Adrs{
+   margin-top: 5px;
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 1px;
+  width: 300px; 
+  height: 30px;
+  border: none;
+  border-width: 2px;
+  border-color: rgb(206, 169, 175);
+  background-color: #f5f0f0;
+  display: block;
+}
+.Request-B{
+  color: white;
+  background-color: black;
+  border: none;
+  width : 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin-top:15px ;
+}
+.Schedule-L{
+  color: white;
+  background-color: rgb(206, 169, 175);
+  width : 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none; 
+  cursor: pointer;
+}
+.video-preview{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px ;
+}

@@ -1,0 +1,254 @@
+.subs-button {
+  background: rgb(200, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 36px;
+  width: 100px;
+  border-radius: 2px;
+  transition: opacity 0.15s;
+}
+
+.subs-button:hover {
+  opacity: 0.8;
+}
+
+.subs-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background: rgb(255, 255, 255);
+  color: rgb(138, 43, 226);
+  height: 36px;
+  width: 62px;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background: rgb(138, 43, 226);
+  color: rgb(255, 255, 255);
+}
+
+.join-button:active {
+  opacity: 0.8;
+}
+
+.Tweet-button {
+  background: rgb(2, 158, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 36px;
+  width: 70px;
+  border-radius: 17px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.Tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.Uber-button {
+  margin-top: 1px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 36px;
+  width: 110px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: opacity 0.60s;
+}
+
+.Uber-button:hover {
+  opacity: 0.8;
+
+}
+
+.Amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 30px;
+  width: 162px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+.Amazon-button:hover {
+  background-color: rgb(238, 200, 11);
+}
+
+.GitHub-button {
+  background: rgb(46, 164, 79);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: box-shadow 0.80s;
+}
+
+.GitHub-button:hover {
+  box-shadow: 2px 3px 6px rgba(1, 1, 1, 0.25);
+
+}
+
+.BS-button {
+  background: rgb(255, 255, 255);
+  width: 220px;
+  height: 36px;
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+.GS-button {
+  background-color: rgb(121, 82, 125);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 35px;
+  width: 99px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.60s;
+}
+.GS-button:hover{
+  background-color: rgb(106, 54, 113);
+}
+.buttonss {
+  display: flex;
+  justify-content: left;
+
+}
+
+.BS-Download {
+  background-color: #ffffff;
+  color: rgb(99, 109, 118);
+  border-width: 1.3px;
+  border-color: rgb(101, 112, 121);
+  border-style: solid;
+  border-radius: 4px;
+  height: 35px;
+  width: 99px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.60s,
+  color 0.60s;
+}
+.BS-Download:hover{
+  background-color: rgb(99, 109, 118);
+  color: white;
+}
+.LDS-button {
+  background: rgb(255, 255, 255);
+  color: rgb(10, 102, 194);
+  border: solid;
+  border-width: 1.5px;
+  height: 35px;
+  width: 70px;
+  border-radius: 17px;
+  border-color: rgb(10, 102, 194);
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.60s ,
+  border-width 1s;
+}
+.LDS-button:hover{
+  background-color:rgba(10, 102, 194, 0.119);
+  border-width: 1.6px;
+}
+.LinkIn-button {
+  background: rgb(255, 255, 255);
+  width: 350px;
+  height: 36px;
+  margin-top: 1px;
+}
+
+.Lkd-Apply-button {
+  background: rgb(10, 102, 194);
+  color: #ebebeb;
+  border: none;
+  height: 35px;
+  width: 250px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:  background-color 0.70s;
+}
+.Lkd-Apply-button:hover{
+  background-color: rgb(2, 54, 105);
+}
+
+/* Amazone Page CSS --------->*/
+.Amazon-Page {
+  margin-top: 50px;
+  width: 300px;
+  height: 150;
+  padding: 15px;
+}
+.Ama-Back-button:hover{
+  color: green;
+
+}
+.Price-Avail-bt {
+  color: rgb(0, 118, 0);
+}
+
+.Ama-Add-button {
+  background-color: rgb(255, 216, 20);
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-top: 1px;
+}
+.Ama-Add-button:hover{
+   background-color: rgb(238, 200, 11);;
+}
+.Ama-Add-button:active{
+  opacity: 0.5;
+}
+
+.Ama-Buy-button {
+  background-color: rgb(255, 164, 28);
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+.Ama-Buy-button:hover{
+   background-color: rgb(194, 120, 9);
+  }
+  .Ama-Buy-button:active{
+    opacity: 0.5;
+  }
