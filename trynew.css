@@ -51,7 +51,6 @@
   background-color: rgb(29, 155, 240);
   color: white;
   border: none;
-  border: none;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -413,15 +412,66 @@ color: rgb(250, 250, 250);
   transition: background-color 0.3s,box-shadow 0.3s;
 
 }
-.new-prof-cardf{
-  margin-top: 30px;
-  width: 200px;
-  height: 200px;
-  background-color: #dacccc;
+.new-prof-card{
+  margin-top: 20px;
+  width: 500px;
+  height: 298px;
+  background-color: #f4f2f2;
+  transition: background-color 0.3s,box-shadow 0.3s;
 }
 .Profi-card-3,.Profi-card-2,.Profi-card-1{
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #f5f1f1;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+.prof-image-1{
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Gentalcat{
+  width: 100%;
+  border-radius: 50px;
+}
+.prof-info{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+p{
+   margin-bottom: 0;
+   margin-top: 0;
+}
+.cat-name{
+  font-family: Roboto,Arial;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.cat-status-1{
+  margin-bottom: 2px;
+  color: rgb(96, 96, 96);
+  font-size: 15px;
+}
+.buttn{
+  display: inline-block;
+  vertical-align: middle;
+}
+.Follow-buttn{
+  margin-left: 80px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 155, 240);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s,box-shadow 0.3s;
 }
