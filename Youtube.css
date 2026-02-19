@@ -1,10 +1,34 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.left-sec{
+    background-color: lightpink;
+    width: 150px;
+    margin-right: 70px;
+}
+.middle-sec{
+    background-color: lightblue;
+    flex: 1;
+    max-width: 400px;
+}
+.right-sec{
+    width: 250px;
+    background-color: lightpink;
+    margin-left: 35px;
+}
 .Search{
   font-size: 17px;
   padding-left: 2px;
   padding-right: 2px;
   padding-bottom: 5px;
   padding-top: 5px;
-  display: block;
 }  
 
 .video-info-grid{
