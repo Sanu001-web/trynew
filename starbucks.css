@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif, roboto;
+}
+
+body {
+  background-color: var(--default-color);
+  height: 4000px;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #008248;
+  --default-color: #fff;
+  --hero-color:#f4f0dd;
+}
+
+.starbucks-icon {
+  /* width: 24px */
+  height: 52px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-nav ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 20px;
+}
+
+.left-nav ul li a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.left-nav ul li a:active {
+  text-decoration: underline;
+}
+
+.find-store {
+  display: flex;
+  color: #000;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.find-store span {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.location-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.sign-in-btn {
+  font-family: "Montserrat", sans-serif, roboto;
+  color: #000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 7px 15px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.join-now-btn {
+  font-family: "Montserrat", sans-serif, roboto;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 7px 15px;
+  background-color: #000;
+  border: none;
+  border-radius: 20px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 20px 0;
+}
+
+.hero-section h1 {
+  color: var(--default-color);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-section p {
+  color: var(--default-color);
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.front-page-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding-top: 50px; */
+  background-color: var(--hero-color);
+}
+
+.f-left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.f-left-section h1 {
+  font-size: 50px;
+  color: var(--primary-color);
+  width: 70%;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+.f-left-section h3 {
+  font-size: 20px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.f-left-section p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-color);
+  width: 60%;
+  text-align: center;
+}
+
+.f-join-btn {
+  font-family: "Montserrat", sans-serif, roboto;
+  color: var(--default-color);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 7px 15px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 20px;
+}
+
+.f-page-img {
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.second-section-cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  width: 380px;
+  gap: 10px;
+}
+.card p{
+  width: 90%;
+  text-align: center;
+  font-size: 15px;
+}
+.third-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+
+}
+.th-card-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-top: 5vh;
+}
+.th-heading h1 p{
+  text-align: center;
+}
+.th-card-heading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.th-card{
+  height: 80vh;
+  width: 450px;
+  border-radius: 50px;
+  text-align: left;
+  padding-top: 20px;
+}
+.th-card ul li{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.th-one{
+background-color: var(--secondary-color);
+color: var(--default-color);
+}
+.th-two{
+  background-color: #cba258;
+  color: var(--primary-color);
+}
+.th-three{
+  background-color: var(--primary-color);
+  color: var(--default-color);
+}
+.star-icon,.bdy-icon{
+  height: 28px;
+  margin-right: 8px;
+}
