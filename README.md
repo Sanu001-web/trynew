@@ -1,91 +1,100 @@
-# 🌐 Frontend Practice Projects
+# 🚀 TryNew Projects Collection
 
-Welcome to my **Frontend Practice Projects** repository!  
-This repo contains a collection of HTML and CSS projects created to improve my frontend development skills through hands-on practice.
-
----
-
-## 📁 Project Structure
-
-- **YouTube Clone UI**
-  - `Youtube.html`
-  - `Youtube.css`  
-  A simple YouTube homepage layout using Flexbox.
-
-- **Buttons Practice**
-  - `button.html`
-  - `button.css`  
-  Different styled buttons with hover effects.
-
-- **Sample Layout**
-  - `sample.html`
-  - `sample.css`  
-  Basic layout designs for practice.
-
-- **Try New Designs**
-  - `trynew.html`
-  - `trynew.css`  
-  Experiments with new UI ideas and layouts.
+Welcome to **TryNew** — a collection of beginner-to-intermediate frontend web projects built using **HTML** and **CSS**.  
+This repository contains multiple UI designs and practice projects created to improve frontend development skills and responsive web design concepts.
 
 ---
 
-## 🚀 Features
+## 📂 Projects Included
 
-- Responsive layouts using CSS Flexbox  
-- Clean and simple UI design  
-- Real-world layout practice (YouTube clone)  
-- Reusable button components  
-- Continuous improvements and updates  
+### 🎬 YouTube Clone
+A simple YouTube homepage UI clone with:
+- Responsive header
+- Nested flexbox layouts
+- Video section styling
+
+Files:
+- `Youtube.html`
+- `Youtube.css`
+
+---
+
+### ☕ Starbucks Landing Page
+A modern Starbucks-inspired landing page featuring:
+- Stylish hero section
+- Interactive layout
+- Improved UI structure
+
+Files:
+- `starbucks.html`
+- `starbucks.css`
+
+---
+
+### 🏋️ Gym Website
+A fitness/gym themed website with:
+- Clean modern design
+- Responsive sections
+- Attractive styling
+
+Files:
+- `Gym.html`
+- `gym.css`
+
+---
+
+### 📚 Library Website
+A simple library webpage design with:
+- Organized layout
+- Clean typography
+- Easy navigation
+
+Files:
+- `library.html`
+- `library.css`
+
+---
+
+### 🎨 Button & Sample UI Designs
+Practice projects for:
+- Custom buttons
+- UI components
+- Layout experimentation
+
+Files:
+- `button.html`
+- `button.css`
+- `sample.html`
+- `sample.css`
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
-- Flexbox  
+- HTML5
+- CSS3
+- Flexbox
+- Responsive Design
 
 ---
 
-## 📌 How to Use
+## 📸 Project Structure
 
-1. Clone the repository:
 ```bash
-git clone https://github.com/Sanu001-web/trynew.git
-```
-
-2. Open the folder:
-```bash
-cd trynew
-```
-
-3. Open any `.html` file in your browser.
-
----
-
-## 🎯 Learning Goals
-
-- Improve HTML structure  
-- Master CSS styling and layouts  
-- Build real-world UI components  
-- Experiment with new design ideas  
-
----
-
-## 📅 Updates
-
-- Added new projects and UI experiments  
-- Improved YouTube header using nested Flexbox  
-- Enhanced styling and layouts  
-
----
-
-## 🤝 Contributing
-
-This is a personal learning project, but feedback and suggestions are always welcome.
-
----
-
-## ⭐ Support
-
-If you like this repository, don’t forget to star it!
+trynew/
+│
+├── Youtube.html
+├── Youtube.css
+├── Gym.html
+├── gym.css
+├── library.html
+├── library.css
+├── starbucks.html
+├── starbucks.css
+├── button.html
+├── button.css
+├── sample.html
+├── sample.css
+├── trynew.html
+├── trynew.css
+└── README.md
