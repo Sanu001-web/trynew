@@ -14,7 +14,7 @@ body {
   --primary-color: #000;
   --secondary-color: #008248;
   --default-color: #fff;
-  --hero-color:#f4f0dd;
+  --hero-color: #f4f0dd;
 }
 
 .starbucks-icon {
@@ -180,18 +180,21 @@ nav {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .second-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
 }
-.second-section-cards{
+
+.second-section-cards {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.card{
+
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,60 +202,109 @@ nav {
   width: 380px;
   gap: 10px;
 }
-.card p{
+
+.card p {
   width: 90%;
   text-align: center;
   font-size: 15px;
 }
-.third-section{
+
+.third-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10vh;
 
 }
-.th-card-container{
+
+.th-card-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 50px;
+  gap: 18px;
   margin-top: 5vh;
 }
-.th-heading h1 p{
+
+.th-heading h2,
+p {
   text-align: center;
 }
-.th-card-heading{
+
+.th-card-heading {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
-.th-card{
-  height: 80vh;
-  width: 450px;
-  border-radius: 50px;
+
+.th-card-heading h2 {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.th-card-heading p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.th-card {
+  height: 85vh;
+  width: 410px;
+  border-radius: 40px;
   text-align: left;
   padding-top: 20px;
 }
-.th-card ul li{
+
+.th-card ul li {
   display: flex;
   align-items: center;
+  justify-self: center;
   list-style: none;
   font-size: 18px;
   font-weight: 500;
   padding-left: 10px;
+  padding-top: 20px;
+  width: 90%;
 }
-.th-one{
-background-color: var(--secondary-color);
-color: var(--default-color);
+
+.li-title-items {
+  font-size: 15px;
+  font-weight: 600;
 }
-.th-two{
+
+.green-bottom-icon {
+  height: 80px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.gs-icon-cont {
+  position: absolute;
+  top: 570px;
+  width: 100%;
+}
+
+.th-one {
+  overflow: hidden;
+  position: relative;
+  background-color: #006242;
+  color: var(--default-color);
+}
+
+.th-two {
+  overflow: hidden;
+  position: relative;
   background-color: #cba258;
   color: var(--primary-color);
 }
-.th-three{
+
+.th-three {
+  overflow: hidden;
+position: relative;
   background-color: var(--primary-color);
   color: var(--default-color);
 }
-.star-icon,.bdy-icon{
-  height: 28px;
+
+.star-icon,
+.bdy-icon {
+  height: 22px;
   margin-right: 8px;
 }
