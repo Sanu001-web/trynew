@@ -246,11 +246,184 @@ section {
   cursor: pointer;
 } 
 
-footer {
-  background: #393939;
-  padding: 40px 10%;
+.highlight-card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.highlight-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(255,153,51,0.4);
+}
+
+.highlight-card h3 {
+  color: #ff9933;
+  margin-bottom: 10px;
+}
+
+/* QUOTE */
+.about-quote {
+  margin-top: 60px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.about-quote span {
+  color: #ff9933;
+}
+
+/* FOOTER */
+.about-footer {
+  margin-top: 40px;
+  opacity: 0.85;
+}
+
+.about-footer h3 {
+  margin-top: 15px;
+  color: #ff9933;
+}
+
+/* ANIMATION */
+.about-section {
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.contact-section {
+  background: #111;
+  padding: 100px 8%;
+  color: #fff;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
   text-align: center;
-  opacity: .7;
+}
+
+/* GRID */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* CARDS */
+.contact-card {
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 18px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255,153,51,0.35);
+  cursor: pointer;
+}
+
+.contact-card h3 {
+  color: #ff9933;
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  opacity: 0.85;
+  margin: 6px 0;
+}
+
+/* CTA */
+.contact-cta {
+  margin-top: 50px;
+}
+
+
+footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  color: #fff;
+  padding: 80px 8%;
+  border-top: 3px solid var(--primary);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-section h3 {
+  color: var(--accent);
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.footer-section p {
+  line-height: 1.8;
+  opacity: 0.85;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  opacity: 0.8;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer-section ul li:hover {
+  color: var(--accent);
+  transform: translateX(5px);
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section a:hover {
+  color: var(--accent);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 30px;
+  opacity: 0.75;
+}
+
+.footer-bottom p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+@media(max-width: 768px) {
+  footer {
+    padding: 50px 6%;
+  }
+
+  .footer-container {
+    gap: 30px;
+  }
+
+  .footer-section h3 {
+    font-size: 1.1rem;
+  }
 }
 
 @keyframes slideDown {
@@ -323,102 +496,3 @@ footer {
   gap: 25px;
   margin-top: 60px;
 }
-
-.highlight-card {
-  background: #1c1c1c;
-  padding: 25px;
-  border-radius: 16px;
-  transition: 0.4s;
-  cursor: pointer;
-}
-
-.highlight-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 20px rgba(255,153,51,0.4);
-}
-
-.highlight-card h3 {
-  color: #ff9933;
-  margin-bottom: 10px;
-}
-
-/* QUOTE */
-.about-quote {
-  margin-top: 60px;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.about-quote span {
-  color: #ff9933;
-}
-
-/* FOOTER */
-.about-footer {
-  margin-top: 40px;
-  opacity: 0.85;
-}
-
-.about-footer h3 {
-  margin-top: 15px;
-  color: #ff9933;
-}
-
-/* ANIMATION */
-.about-section {
-  animation: fadeIn 1.5s ease;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.contact-section {
-  background: #111;
-  padding: 100px 8%;
-  color: #fff;
-}
-
-.contact-container {
-  max-width: 1100px;
-  margin: auto;
-  text-align: center;
-}
-
-/* GRID */
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin-top: 50px;
-}
-
-/* CARDS */
-.contact-card {
-  background: #1c1c1c;
-  padding: 30px;
-  border-radius: 18px;
-  transition: 0.4s;
-  cursor: pointer;
-}
-
-.contact-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 25px rgba(255,153,51,0.35);
-}
-
-.contact-card h3 {
-  color: #ff9933;
-  margin-bottom: 15px;
-}
-
-.contact-card p {
-  opacity: 0.85;
-  margin: 6px 0;
-}
-
-/* CTA */
-.contact-cta {
-  margin-top: 50px;
-}
-
