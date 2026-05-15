@@ -313,7 +313,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 125%;
+  /* width: 100%; */
 }
 
 .gs-section-content {
