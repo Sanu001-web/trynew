@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--default-color);
+  background-color: #fffcf7;
   height: 4000px;
 }
 
@@ -380,4 +380,63 @@ p {
 .gs-section-star-st p{
   width: 40%;
   font-size: 18px;
+}
+.pt-section{
+  display: flex;
+  flex-direction: column;
+}
+.pt-sec-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:150px;
+}
+.pt-sec-title h2{
+  font-size: 28px;
+  font-weight: 800;
+  color: #2c3d28;
+  padding: 15px 0; 
+}
+.pt-sec-comp-ny-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.pt-sec-comp-ny{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  background-color: #e8e4df;
+  width: 500px;
+  height: 280px;
+  border-radius: 20px;
+}
+.pt-sec-comp-ny p{
+  width: 80%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.comp-ny-name-logo{
+  height: 90px;
+}
+.view-btn{
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px 25px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.more-icon{
+  height: 20px;  
+  margin-left: 5px;
 }
