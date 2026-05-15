@@ -7,7 +7,7 @@
 
 body {
   background-color: #fffcf7;
-  height: 4000px;
+  height: 5000px;
 }
 
 :root {
@@ -437,6 +437,115 @@ gap: 20px;
   border-radius: 20px;
 }
 .more-icon{
-  height: 20px;  
-  margin-left: 5px;
+  height: 22px;
+}
+.join-section-card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.join-section-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 150px;
+  width: 80%;
+  height: 400px;
+  background-color: #f1e7d6;
+  border-radius: 30px;
+  padding: 50px 80px;
+}
+.member-join-phto{
+  height: 320px;
+}
+.join-section-card-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  width: 24%;
+  margin-top: 20px;
+}
+.rt-sec-account-info{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  text-align: center;
+  gap: 25px;
+}
+.ac-join-icon{
+  height: 60px;
+  margin-right: 10px;
+}
+.join-section-card-btn p{
+  font-size: 15px;
+}
+.join-ac-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.join-ac-head a{
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 700;
+}
+.faq{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 10px;
+}
+.faq h2{
+  font-size: 28px;
+  font-weight: 800;
+  color: #2c3d28;
+}
+.faq-lnk{
+  display: flex;
+}
+.faq-lnk p{
+  font-size: 16px;
+  font-weight: 500;
+}
+.faq-lnk a{
+  color: var(--secondary-color);
+  font-size: 17px;
+  font-weight: 700;
+}
+.app-sec-download{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  background-color: #f1e7d6;
+}
+.lft-app-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.lft-app-sec p{
+  width: 95%;
+}
+.lft-app-sec h2{
+  font-size: 28px;
+  font-weight: 800;
+  color: #2c3d28;
+}
+.app-scan-dwn{
+  height: 160px;
+  width: 160px;
+}
+.app-features-img{
+  height: 450px;
+  padding: 50px 0;
 }
