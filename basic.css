@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+}
+body{
+  height: 3000px;
+}
+
+:root {
+  --hero-color: #1b1b1b;
+  --default-color:#ffffff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--hero-color);
+  height: 20vh;
+}
+
+.nv-title {
+  text-transform: uppercase;
+  color: var(--default-color);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.nv-item ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--default-color);
+  list-style: none;
+  font-size: 18px;
+  gap: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.mob-holder{
+  width: 100%;
+  object-fit: cover;
+}
+.hambur-icon{
+  height: 25px;
+}
+.bd-discription{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: space-around;
+}
+.bd-discription-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 38vw;
+  padding: 12px 15px;
+  font-size: 38px;
+  position: relative;
+}
+.web-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  font-weight:900;
+}
+.bd-see-more-btn{
+  text-transform: uppercase;
+  border: 1px solid rgb(0,0,0);
+  background-color: transparent;
+  padding: 5px 18px;
+  border-radius: 15px;
+  position: absolute;
+  left: 12px;
+  bottom: 30px;
+  cursor: pointer;
+}
+.card-container{
+  /* background-color: bisque; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  width: 100%;
+  /* padding: 102px 1px; */
+}
+
+.cd-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: aqua; */
+}
+.card-one-img{
+  height: 500px;
+  width: 90%;
+  margin-left: 20px;
+  cursor: pointer;
+  transition:   transform 0.18s;
+}
+.card-one-img:hover{
+  transform: scale(1.05);
+  
+}
+.card-one-vid{
+  height: 500px;
+  width: 90%;
+  margin-left: 20px;
+}
+.cd-card h3{
+margin-top: 15px;
+margin-left: 20px;
+width: 25vw;
+font-size: 22px;
+}
+.cd-card p{
+margin-top: 5px;
+margin-left: 20px;
+width: 25vw;
+font-size: 17px;
+}
+
+
+
+  
+
