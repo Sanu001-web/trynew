@@ -5,13 +5,14 @@
   /* font-family: "Roboto", sans-serif; */
   font-family: "Roboto Condensed", sans-serif;
 }
-body{
-  height: 5000px;
+
+body {
+  height: 8000px;
 }
 
 :root {
   --hero-color: #1b1b1b;
-  --default-color:#ffffff;
+  --default-color: #ffffff;
 }
 
 nav {
@@ -42,20 +43,24 @@ nav {
   font-weight: 600;
   text-transform: uppercase;
 }
-.mob-holder{
+
+.mob-holder {
   width: 100%;
   object-fit: cover;
 }
-.hambur-icon{
+
+.hambur-icon {
   height: 25px;
 }
-.bd-discription{
+
+.bd-discription {
   display: flex;
   flex-direction: row;
   height: 50vh;
   justify-content: space-around;
 }
-.bd-discription-text{
+
+.bd-discription-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,17 +70,19 @@ nav {
   font-size: 38px;
   position: relative;
 }
-.web-logo{
+
+.web-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 200px;
-  font-weight:900;
+  font-weight: 900;
 }
-.bd-see-more-btn{
+
+.bd-see-more-btn {
   text-transform: uppercase;
-  border: 1px solid rgb(0,0,0);
+  border: 1px solid rgb(0, 0, 0);
   background-color: transparent;
   padding: 5px 18px;
   border-radius: 15px;
@@ -84,106 +91,253 @@ nav {
   bottom: 30px;
   cursor: pointer;
 }
-.card-container{
+
+.card-container {
   /* background-color: bisque; */
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
+  /* width: 80%; */
+  /* padding: 102px 20px; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100vw;
   gap: 10px;
-  /* padding: 102px 20px; */
+  margin-top: 100px;
 }
 
-.cd-card{
+.cd-card {
   display: flex;
   flex-direction: column;
+  /* background-color: rgb(54, 236, 236); */
 }
-.card-one-img{
-  height: 480px;
+
+.card-one-img {
+  height: 550px;
   /* width: 100%; */
   cursor: pointer;
   object-fit: contain;
-  transition:   transform 0.18s;
+  transition: transform 0.18s;
 }
-.card-one-img:hover{
+
+.card-one-img:hover {
   transform: scale(1.05);
-  
+
 }
-.card-one-vid{
-  height: 480px;
+
+.card-one-vid {
+  height: 550px;
   width: 100%;
   object-fit: contain;
 }
-.cd-card h3{
-margin-top: 15px;
-margin-left: 20px;
-width: 25vw;
-font-size: 22px;
+
+.cd-card h3 {
+  margin-top: 15px;
+  margin-left: 80px;
+  width: 25vw;
+  font-size: 22px;
 }
-.cd-card p{
-margin-top: 5px;
-margin-left: 20px;
-width: 25vw;
-font-size: 17px;
+
+.cd-card p {
+  margin-top: 5px;
+  margin-left: 80px;
+  width: 25vw;
+  font-size: 17px;
 }
-.hr-line{
+
+.hr-line {
   position: relative;
 }
-.p-one{
+
+.p-one {
   position: absolute;
   top: 5px;
   left: 160px;
 }
-.p-two{
+
+.p-two {
   position: absolute;
   top: 5px;
   left: 710px;
 }
-.p-three{
+
+.p-three {
   position: absolute;
   top: 5px;
   font-weight: bolder;
   left: 1320px;
 }
-hr{
+
+hr {
   margin: 0 150px;
   margin-top: 10vw;
 }
-.engagements{
+
+.engagements {
   display: flex;
   justify-content: start;
   align-items: center;
 }
-.engagements h1{
+
+.engagements h1 {
   width: 10vw;
-  margin-left:150px;
+  margin-left: 150px;
   margin-top: 10vw;
   font-size: 45px;
 }
-.engagements-fetures{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 8vw;
-  background-color: blanchedalmond;
+
+.engagements-fetures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10vw;
+  /* background-color: blanchedalmond; */
+  margin-right: 30px;
 }
+
+/*
 .ft-card{
   display: flex;
-  justify-content: start;
-  /* align-items: center; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: aqua;
-  width: 30%;
-  height: 70vh;
+
 }
-.ft-card p{
-  margin-top: 80px;
+  */
+.ft-card h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 50px;
+  font-size: 42px;
+}
+
+.ft-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-top: 20px;
   font-size: 32px;
 }
 
+.kfc-title {
+  font-family: "Cinzel", serif;
+  font-style: italic;
+  font-weight: 800;
+}
 
-  
+.wilson-title {
+  font-family: "Agbalumo", system-ui;
 
+}
+
+.ft-card-description {
+  text-align: top;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.here-tag {
+  color: black;
+}
+
+.ft-cart-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Brands-collab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20vh;
+  /* background-color: rgb(216, 223, 228); */
+  height: 100vh;
+}
+
+.brands-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: antiquewhite; */
+  overflow: hidden;
+  width: 100%;
+
+}
+.brand-title{
+  position: relative;
+  font-size: 150px;
+  padding-left: 20px;
+}
+.brand-title sup{
+  position: absolute;
+  font-size: 70px;
+  top: 15px;
+}
+.tag-line{
+  padding-left: 20px;
+  font-size: 30px;
+}
+.tag-line span{
+  font-weight: 500;
+}
+.abt-btn{
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 18%;
+  cursor: pointer;
+  transition: all 0.30s;
+}
+.abt-btn:hover{
+  color: var(--default-color);
+  background-color: var(--hero-color);
+}
+.brand-video{
+  width: 98%;
+  /* height: 98%; */
+}
+.fet-news-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color:aqua; */
+  margin-top: 20vh;
+  height: 40vh;
+}
+.fet-news{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: bisque; */
+  width: 50%;
+  height: 40%;
+}
+.fet-news h1{
+  font-size: 45px;
+  width: 28%;
+}
+.fet-news-btn{
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 18%;
+  cursor: pointer;
+  transition: all 0.30s;
+}
+.fet-news-btn:hover{
+  color: var(--default-color);
+  background-color: var(--hero-color);
+}
